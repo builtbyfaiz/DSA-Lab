@@ -1,43 +1,14 @@
-# Lab 2: Arrays, Binary Search & Sorting
+# DSA Lab
+A collection of lab tasks and solutions for **Data Structures** @NUML, implemented in C++.
 
-**Course:** Data Structures Lab (CSDS-224L)
-
-Solutions to Lab 2 class tasks, covering binary search and sorting algorithms in C++.
-
-## Solutions
-| Task | Topic | File |
+## Labs
+| Lab | Topics | Solutions |
 |---|---|---|
-| 1 | Iterative Binary Search | [`task1.cpp`](task1.cpp) |
-| 2 | Recursive Binary Search | [`task2.cpp`](task2.cpp) |
-| 3 | Selection Sort | [`task3.cpp`](task3.cpp) |
-| 4 | Bubble Sort — Pass Counter | [`task4.cpp`](task4.cpp) |
-| 5 | Insertion Sort — Shift Counter | [`task5.cpp`](task5.cpp) |
-| 6 | Sorting + Binary Search | [`task6.cpp`](task6.cpp) |
-| 7 | Binary Search on a Descending Array | [`task7.cpp`](task7.cpp) |
+| Lab 01 | Introduction | N/A |
+| Lab 02 | Arrays, Binary Search & Sorting | [View Lab 02](Lab-02/) |
 
-## Concepts Covered
+## Structure
+Each lab has its own directory containing the source code and a README describing the solutions.
 
-- Iterative and recursive binary search
-- Selection, bubble, and insertion sort
-- Counting sorting passes and element shifts
-- Searching sorted arrays
-- Adapting binary search for descending order
-
-## Running a Solution
-Compile and run any task using a C++ compiler:
-
-```bash
-g++ task1.cpp -o task1
-./task1
-```
-
-On Windows, run the compiled program with:
-
-```bash
-task1.exe
-```
-
-Replace `task1.cpp` and `task1` with the desired task's filename and executable name.
-
-## Notes
-- Each task is implemented in a separate source file.
+## Language
+- C++
